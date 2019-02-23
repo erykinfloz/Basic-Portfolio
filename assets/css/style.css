@@ -20,7 +20,6 @@ h6 {
 header {
     background: white;
     border-bottom: 3px solid #ccc;
-    margin-bottom: 30px;
     height: 97px;
 
 }
@@ -28,6 +27,9 @@ header {
 .wrapper {
     width: 960px;
     margin: 0 auto;
+    background: white;
+    height: 5px;
+    padding: 0;
 }
 header h1 {
     background: #4aaaa5;
@@ -74,6 +76,7 @@ p {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif
 }
 
 #poptart h2 {
@@ -88,4 +91,118 @@ p {
     float: left;
     margin: 0 15px 15px 0;
     border: 1px solid #777;
+}
+footer {
+    background: #666;
+    border-top: 5px solid;
+    color:gray;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+    position: relative;
+    top: 560px;
+
+}
+form label {
+    font-size: 18px;
+    display: block;
+}
+form input,form textarea{
+    width: 100%;
+    display: block;
+    margin: 5px 0px 20px 0px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+
+}
+form {
+    background: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+form button {
+    background: teal;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+.portfolio-item  {
+     position: relative;
+     margin-bottom: 20px;
+     width: 45%;
+     float: left;
+}
+/* .portfolio-item:nth-of-type(even){
+    float: right;
+} */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.auto {
+    height: auto;
+    width: auto;
+}
+#left-column {
+ margin-top: 5px;
+ background:white;
+ position: relative;
+ bottom: 55px;
+
+}
+.pictures {
+ margin-top: 100px;
+ background: white;
+}
+h2 {
+    color: teal;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+#picture1 {
+    padding: 20px;
+    background:teal;
+    position: relative;
+    top: 400px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+#picture2 {
+    padding: 20px;
+    background:teal;
+    position: relative;
+    top: 400px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+#picture3 {
+    padding: 20px;
+    background:teal;
+    position: relative;
+    top: 400px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+#picture4 {
+    padding: 20px;
+    background:teal;
+    position: relative;
+    top: 400px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+#picture5 {
+    padding: 20px;
+    background:teal;
+    position: relative;
+    top: 400px;
+    width: 400px;
+    text-align: center;
+    color: white;
 }
